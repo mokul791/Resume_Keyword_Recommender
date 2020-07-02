@@ -1,5 +1,5 @@
 import nltk
-import pdfReader as pdf
+from readers import pdfReader as pdf
 
 file = 'IBM Business Consultant.pdf'
 file_read = pdf.getTextPDF(file)
