@@ -1,7 +1,7 @@
 import nltk
 from readers import pdfReader as pdf
 
-file = 'IBM Business Consultant.pdf'
+file = '../data_files/IBM Business Consultant.pdf'
 file_read = pdf.getTextPDF(file)
 print(file_read)
 

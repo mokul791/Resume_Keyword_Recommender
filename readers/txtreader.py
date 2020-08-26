@@ -3,6 +3,6 @@ def get_txt(txt_file_name):
 	return file.read()
 
 
-test_file = get_txt('sample_feed.txt')
+test_file = get_txt('../data_files/sample_feed.txt')
 
 print(test_file)
